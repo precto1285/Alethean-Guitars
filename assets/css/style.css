@@ -1,0 +1,23 @@
+main{
+    Margin:300px;
+    color:brown;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+}
+#mainTitle{
+    margin-left: 10px;
+}
+.collapse{
+    margin-left:800px;
+    text-align:center;
+}
+footer{
+    margin-top:200px;
+}
+body{
+    background-image: url(../images/light-veneer.png);
+}
+.navbar{
+    border:solid;
+    border-color:tan;
+}
