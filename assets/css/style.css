@@ -3,7 +3,7 @@ main{
     margin-left:300px;
     margin-right:300px;
     color:brown;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'actor font', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 }
 #mainTitle{
@@ -13,14 +13,27 @@ main{
     margin-left:800px;
     text-align:center;
 }
+header{
+    color:white;
+}
 footer{
     margin-top:200px;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
 }
 body{
     opacity:0.8;
     background-image: url(../images/light-veneer.png);
 }
-.navbar{
+.navbar-custom {
+    color:white;
+    background-color: rgb(6, 4, 5);
     border:solid;
     border-color:tan;
+}
+
+a{
+    color:white;
 }

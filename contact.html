@@ -18,8 +18,12 @@
 
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div id="mainTitle" class="title"><a class="nav-link" href="index.html"><img src="assets/images/Logo.png" alt="alethean" width="200px;"></a></div>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div id="mainTitle" class="title">
+                <a class="nav-link" href="index.html">
+                    <img src="assets/images/Logo.png" alt="alethean" width="200px;">
+                </a>
+            </div>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
@@ -43,8 +47,9 @@
 
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
                 </form>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </div>
         </nav>
 
@@ -53,22 +58,27 @@
     <main>
         <center>
             <h1 class="display-1">Alethean Guitars</h1>
-        
-        <h2>123 Main St., Anywhere, CA 91111 <br>Tel. 555-555-5555</h2>
-    
 
-    <form action="http://www.example.com/subscribe.php">
-        <p>Send Us a Message:</p>
-            <textarea name="comments" col="30" rows="4">Enter Your Comments Here...</textarea>
-            <br>
-            <buttion id="sendEmail"class="btn btn-secondary btn-lg disabled" role="button" aria-disabled="true">Send</buttion>
+            <h3>123 Main St., Anywhere, CA 91111
+                <br>Tel. 555-555-5555</h3>
+
+            <form action="http://www.example.com/subscribe.php">
+                <p>Email Address:
+                    <input type="text" name="username" size="15" maxlength="6">
+                </p>
+            </form>
+            <form action="http://www.example.com/subscribe.php">
+                <p>Send Us a Message:</p>
+                <textarea name="comments" col="30" rows="4">Enter Your Comments Here...</textarea>
+                <br>
+                <button id="sendEmail" class="btn btn-secondary btn-lg disabled" role="button" aria-disabled="true">Send</button>
         </center>
-        
+
     </main>
 
 
 
-    <footer class="navbar navbar-expand-lg navbar-light bg-light">
+    <footer class="navbar navbar-expand-lg navbar-custom">
 
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
